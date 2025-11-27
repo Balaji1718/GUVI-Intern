@@ -1,0 +1,25 @@
+/* Basic global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* light grey background */
+}
+
+/* Center card with shadow */
+.card {
+    border-radius: 10px;
+}
+
+/* Just a little spacing for forms */
+.card-body {
+    padding: 30px;
+}
+
+/* Make button text bold */
+.btn {
+    font-weight: 600;
+}
+
+/* Margin on top for pages */
+.container {
+    margin-top: 40px;
+}

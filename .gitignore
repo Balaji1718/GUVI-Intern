@@ -1,0 +1,42 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Cache
+.cache/
+*.tmp
+
+# Local configuration
+config.local.php
+database.local.php
+
+# Session files
+/tmp/
+/sessions/

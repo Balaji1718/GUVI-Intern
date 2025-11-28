@@ -27,7 +27,22 @@
 <label class="form-label">Password</label>
 <input name="password" type="password" class="form-control" required>
 </div>
-<button class="btn btn-primary" type="submit">Register</button>
+<div class="mb-3">
+<label class="form-label">Age</label>
+<input name="age" type="number" class="form-control" min="18" max="100" required>
+</div>
+<div class="mb-3">
+<label class="form-label">Date of Birth</label>
+<input name="dob" type="date" class="form-control" required>
+</div>
+<div class="mb-3">
+<label class="form-label">Contact Number</label>
+<input name="contact" type="tel" class="form-control" pattern="[0-9]{10}" placeholder="10 digit number" required>
+</div>
+<button class="btn btn-primary" type="submit" id="registerBtn">
+  <span id="registerBtnText">Register</span>
+  <span id="registerSpinner" class="spinner-border spinner-border-sm ms-2" style="display: none;"></span>
+</button>
 <a href="login.html" class="btn btn-link">Login</a>
 </form>
 </div>

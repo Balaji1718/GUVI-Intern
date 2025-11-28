@@ -3,8 +3,8 @@
 header('Content-Type: application/json');
 require 'redis.php';
 $token = $_POST['token'] ?? '';
-if($token){
+if($token && $r){
   $sessionKey = "session:$token";
-  $redis->del([$sessionKey]);
+  $r->del($sessionKey);
 }
 echo json_encode(['success'=>true]);

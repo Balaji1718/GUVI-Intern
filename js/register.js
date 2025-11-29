@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('#registerSpinner').show();
 
     $.ajax({
-      url: '/Login_page/php/register.php',
+      url: '../php/register.php',
       method: 'POST',
       data: $(this).serialize(),
       dataType: 'json',

@@ -33,12 +33,8 @@ if (!preg_match('/^[0-9]{10}$/', $contact)) {
 
 // Store registration data in both MySQL and MongoDB
 try {
-    // Use environment-aware database connection
-    if (($_ENV['RENDER'] ?? false) || getenv('RENDER')) {
-        require_once 'render_db.php';
-    } else {
-        require_once 'db.php';
-    }
+    // Use the standard database connection
+    require_once 'db.php';
     
     // Use the global $pdo from db connection
     global $pdo;

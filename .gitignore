@@ -1,6 +1,6 @@
-# Dependencies - Keep vendor/ for Render deployment
-# /vendor/ - commented out for Render compatibility
-# composer.lock - Keep this for Render to ensure consistent dependencies
+# Dependencies
+/vendor/
+# Keep composer.lock for consistent dependencies on Render
 
 # Environment variables
 .env

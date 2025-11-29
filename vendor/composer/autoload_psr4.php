@@ -12,4 +12,5 @@ return array(
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Predis\\' => array($vendorDir . '/predis/predis/src'),
     'MongoDB\\' => array($vendorDir . '/mongodb/mongodb/src'),
+    'App\\' => array($baseDir . '/php'),
 );

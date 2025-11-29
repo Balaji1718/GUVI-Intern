@@ -1,6 +1,6 @@
-# Dependencies
-/vendor/
-composer.lock
+# Dependencies - Keep vendor/ for Render deployment
+# /vendor/ - commented out for Render compatibility
+# composer.lock - Keep this for Render to ensure consistent dependencies
 
 # Environment variables
 .env
@@ -16,7 +16,7 @@ composer.lock
 .DS_Store?
 ._*
 .Spotlight-V100
-.Trashes
+.Trashesa
 ehthumbs.db
 Thumbs.db
 
